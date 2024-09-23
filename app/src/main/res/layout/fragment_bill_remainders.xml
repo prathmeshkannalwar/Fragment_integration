@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.bill_remainders.bill_remainders"
+    android:background="#B17DBC">
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:text="Bill Remainder" />
+
+</FrameLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Income_Main_Totally"
+    android:background="@drawable/backgroundofsplashscreen">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:text="Hello.. Add your Incomes here."
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:text="Enter Amount"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:hint=" ₹"
+        android:textColorHint="@color/black"
+        android:textSize="70dp"
+        android:background="@drawable/shapeof_expense_main"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/useramountadd"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@drawable/shapeof_expense_main"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="140dp"
+        android:hint=" 0.00"
+        android:textSize="70dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        ></EditText>
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="270dp"
+        android:text="Payment Method"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        ></TextView>
+    <Spinner
+        android:id="@+id/select_incomesource_spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="50dp"
+        android:textColorHint="@color/black"
+        android:textSize="70dp"
+        android:spinnerMode="dropdown"
+        android:paddingRight="30dp"
+        android:background="@drawable/shapeof_expense_main"
+        ></Spinner>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="385dp"
+        android:text="Description"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/userincomedescription"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Note Here"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@drawable/shapeof_expense_main"
+        ></EditText>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/save_button_shape"
+        ></ImageButton>
+    <TextView
+        android:id="@+id/incomesavebtn"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="175dp"
+        ></TextView>
+</RelativeLayout>

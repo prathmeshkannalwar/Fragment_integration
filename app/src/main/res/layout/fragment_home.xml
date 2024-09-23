@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundofsplashscreen"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/walletimgbtn"
+            android:layout_width="370dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/wallentbuttonshape"></ImageButton>
+
+        <ImageButton
+        android:id="@+id/notiimgbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/baseline_notifications_active_24"
+        android:background="@drawable/wallentbuttonshape"
+        ></ImageButton>
+        <ImageButton
+            android:id="@+id/setngimgbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/settingvector"
+            android:background="@drawable/wallentbuttonshape"
+            ></ImageButton>
+        <ImageButton
+            android:id="@+id/receipt_scn_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-365dp"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/baseline_document_scanner_24"
+            android:background="@drawable/wallentbuttonshape"
+            ></ImageButton>
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif"
+        android:text="Account Balance"
+        android:textColor="@color/black"
+        android:textSize="20dp"></TextView>
+
+
+    <TextView
+        android:id="@+id/RS_Sign"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginTop="135dp"
+        android:text=" ₹"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"></TextView>
+        ></LinearLayout>
+
+    <EditText
+        android:id="@+id/account_balance_edit_text"
+        android:hint="0.00"
+        android:textSize="50dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="132dp"
+        android:inputType="number"
+        ></EditText>
+
+
+    <ImageButton
+        android:id="@+id/expense_btn"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/expense_button_shape"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/income_btn"
+        android:layout_width="185dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/income_button"></ImageButton>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif-black"
+        android:text="INCOME"
+        android:textColor="@color/white"
+        android:textSize="15dp"></TextView>
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="160dp"
+        android:src="@drawable/arrowdownwhite"></ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="275dp"
+        android:src="@drawable/arrowupwhite" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="230dp"
+        android:text="EXPENSE"
+        android:textColor="@color/white"
+        android:textSize="15dp"></TextView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:text="Recent Transactions"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="370dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/wallentbuttonshape"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

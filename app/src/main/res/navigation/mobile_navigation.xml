@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.reinstack.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_track_expense"
+        android:name="com.example.reinstack.ui.track_expense.track_expense"
+        android:label="Track Expense"
+        tools:layout="@layout/fragment_track_expense" />
+
+    <fragment
+        android:id="@+id/nav_bill_remainders"
+        android:name="com.example.reinstack.ui.bill_remainders.bill_remainders"
+        android:label="Bill Remainder"
+        tools:layout="@layout/fragment_bill_remainders" />
+    <fragment
+        android:id="@+id/nav_exceed_budget_remainder"
+        android:name="com.example.reinstack.ui.exceed_budget_remainder.exceed_budget_remainder"
+        android:label="Exceed Budget Remainder"
+        tools:layout="@layout/fragment_exceed_budget_remainder" />
+    <fragment
+        android:id="@+id/nav_customize_remainder"
+        android:name="com.example.reinstack.ui.customize_remainder.customize_remainder"
+        android:label="Customize Remainder"
+        tools:layout="@layout/fragment_customize_remainder" />
+    <fragment
+        android:id="@+id/nav_tagging_and_notes"
+        android:name="com.example.reinstack.ui.tagging_and_notes.tagging_and_notes"
+        android:label="Tagging and Notes"
+        tools:layout="@layout/fragment_tagging_and_notes" />
+    <fragment
+        android:id="@+id/nav_scan_receipt"
+        android:name="com.example.reinstack.ui.scan_receipt.scan_receipt"
+        android:label="Scan Receipt"
+        tools:layout="@layout/fragment_scan_receipt" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.reinstack.ui.feedback.feedback"
+        android:label="FeedBack"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.reinstack.ui.about_us.about_us"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.reinstack.ui.log_out.logout"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
